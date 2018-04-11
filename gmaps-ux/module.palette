@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+<p h="1" m="b=baja" t="b:UnrestrictedFolder">
+ <!-- /gmaps -->
+ <p n="gmaps" m="wb=workbench" t="wb:WebWidget">
+  <p n="layout" m="ui=bajaui" t="ui:Layout" v="0.0,0.0,640.0,480.0"/>
+  <p n="js" t="b:Ord" v="view:gmaps:GMapsWidget"/>
+  <!-- /gmaps/wbViewBinding -->
+  <p n="wbViewBinding" t="wb:WbViewBinding">
+    <p n="ord" v="station:|neql:n:geoCoord" />
+  </p>
+ </p>
+</p>
+</bajaObjectGraph>

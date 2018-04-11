@@ -1,0 +1,12 @@
+<!--
+  -  Module Include File
+  -  Copyright 2004 Tridium Inc, All Rights Reserved.
+  -  $Revision: 58$ $Date: 7/19/11 11:49:58 AM EDT$
+  -->
+
+
+<!-- Types -->
+<types>
+  <type name="GMapsWidget" class="com.tridiumx.gmaps.ux.BGMapsWidget"/>
+  <type name="GMapsWidgetBuild" class="com.tridiumx.gmaps.ux.BGMapsWidgetBuild"/>
+</types>
